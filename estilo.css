@@ -1,171 +1,171 @@
 
+
 article {
     display: flex;
     flex-wrap: wrap;
-  }
+}
   
-  div.fruta {
+div.fruta {
     border: black 2px solid;
     margin: 10px;
-  }
+}
   
-  article p {
+article p {
     margin: 0;
     padding: 5px;
-  }
+}
   
-  p.imagen {
+p.imagen {
     text-align: center;
-  }
+}
   
-  p.titulo {
+p.titulo {
     padding: 5px 0;
     background-color: rgb(182, 185, 189);
     font-size: 150%;
     text-align: center;
-  }
+}
   
-  article.bloque1 p.normal {
+article.bloque1 p.normal {
     width: 200px;
     margin: 10px;
     border: black 2px solid;
-  }
+}
 
-  article.bloque2 {
+article.bloque2 {
     justify-content: space-around;
-  }
+}
   
-  article.bloque2 p.normal {
+article.bloque2 p.normal {
     width: 200px;
     margin: 10px;
     border: black 2px solid;
-  }
+}
   
-  article.bloque3 {
+article.bloque3 {
     align-items: center;
-  }
+}
   
-  article.bloque3 p.normal {
+article.bloque3 p.normal {
     width: 200px;
     margin: 10px;
     border: black 2px solid;
-  }
+}
   
-  article.bloque4 div.fruta {
+article.bloque4 div.fruta {
     width: 200px;
-  }
+}
   
-  article.bloque5 {
+article.bloque5 {
     align-items: center;
-  }
+}
   
-  article.bloque5 div.fruta {
+article.bloque5 div.fruta {
     width: 200px;
-  }
+}
   
-  article.bloque5 p.p2 {
+article.bloque5 p.p2 {
     border-bottom: black 2px solid;
-  }
+}
   
-  article.bloque6 div.fruta {
+article.bloque6 div.fruta {
     display: flex;
     flex-direction: row;
     width: 250px;
-  }
-  
+}
   article.bloque6 p.imagen {
     font-size: 400%;
-  }
+}
   
-  article.bloque7 {
+article.bloque7 {
     align-items: center;
-  }
+}
   
-  article.bloque7 div.fruta {
+article.bloque7 div.fruta {
     display: flex;
     flex-direction: row;
     width: 250px;
-  }
+}
   
-  article.bloque7 p.imagen {
+article.bloque7 p.imagen {
     border-right: black 2px solid;
     font-size: 400%;
-  }
+}
   
-  article.bloque7 p.normal {
+article.bloque7 p.normal {
     background-color: lrgb(182, 185, 189);
-  }
+}
   
-  article.bloque8 div.fruta {
+article.bloque8 div.fruta {
     display: flex;
     flex-direction: row;
     width: 250px;
     background-color: rgb(182, 185, 189);
-  }
+}
   
-  article.bloque8 p.imagen {
+article.bloque8 p.imagen {
     border-right: black 2px solid;
     font-size: 400%;
     background-color: white;
-  }
+}
   
-  article.bloque8 p.p2 {
+article.bloque8 p.p2 {
     flex-grow: 1;
     align-self: center;
-  }
+}
   
-  article.bloque9 div.fruta {
+article.bloque9 div.fruta {
     width: 200px;
-  }
+}
   
-  article.bloque9 p.imagen {
+article.bloque9 p.imagen {
     font-size: 600%;
     text-align: center;
-  }
+}
   
-  article.bloque10 div.fruta {
+article.bloque10 div.fruta {
     width: 300px;
     display: flex;
     flex-direction: row;
-  }
+}
   
-  article.bloque10 div.parte {
+article.bloque10 div.nova {
     display: flex;
     flex-direction: column;
     border-left: black 2px solid;
-  }
+}
   
-  article.bloque10 p.imagen {
+article.bloque10 p.imagen {
     font-size: 600%;
     align-self: center;
-  }
+}
   
-  article.bloque10 p.p2 {
+article.bloque10 p.p2 {
     border-bottom: black 2px solid;
-  }
+}
   
-  article.bloque11 div.fruta {
+article.bloque11 div.fruta {
     width: 300px;
     display: flex;
     flex-direction: column;
-  }
+}
   
-  article.bloque11 div.parte {
+article.bloque11 div.nova {
     width: 100%;
     display: flex;
     flex-direction: row;
     background-color: rgb(182, 185, 189);
-  }
+}
   
-  article.bloque11 p.imagen {
+article.bloque11 p.imagen {
     font-size: 400%;
     border-bottom: black 2px solid;
     border-right: black 2px solid;
     border-bottom-right-radius: 10px;
-  }
+}
   
-  article.bloque11 p.p2 {
+article.bloque11 p.p2 {
     align-self: center;
     align-content: center;
-  }
+}
   
